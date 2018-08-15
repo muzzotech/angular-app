@@ -1,0 +1,23 @@
+<app-contacts></app-contacts>
+<h3>Add a contact here:</h3>
+<form (ngSubmit)="onSubmit()">
+  <div>
+    <label for="firstName">First Name:</label>
+    <input type="text" placeholder="First Name" name="firstName" required [(ngModel)]="model.firstName">
+  </div>
+  <div>
+    <label for="lastName">Last Name:</label>
+    <input type="text" placeholder="Last Name" name="lastName" required [(ngModel)]="model.lastName">
+  </div>
+  <div>
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="text" placeholder="Phone Number" name="phoneNumber" required [(ngModel)]="model.phoneNumber">
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" placeholder="email" name="email" required [(ngModel)]="model.email">
+  </div>
+  <div>
+    <button type="submit">Submit</button>
+  </div>
+</form>

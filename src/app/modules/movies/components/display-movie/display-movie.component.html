@@ -1,0 +1,8 @@
+<div>
+  <p>
+    {{movie.id + 1}}. {{movie.title}}: {{movie.director}}
+  </p>
+  <img [src]='movie.image_url' />
+</div>
+<button (click)="onClickDelete()">Delete</button>
+<button (click)="onClickView()">View</button>

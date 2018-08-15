@@ -1,0 +1,14 @@
+ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+li {
+    border: 1px solid black;
+    margin: 3px 35%;
+}
+    
+div {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
